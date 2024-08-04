@@ -40,7 +40,7 @@ This project focuses on cleaning and preparing Quickbooks invoice data for subse
     *   Saves the cleaned and filtered DataFrames into separate CSV files in the `data/processed/` directory:
         -   `credit_memo.csv`: Contains cleaned credit memos.
         -   `invoices_with_tags.csv`: Contains cleaned invoices with numeric item tags.
-        -   `invoices_without_tags.csv`: Contains cleaned invoices without numeric item tags (these are typically not product sales).
+        -   `invoices_without_tags.csv`: Contains cleaned invoices without numeric item tags (these are typically not product sales, Freight cost, Discounts, Packaging costs etc).
 
 ## Future Work
 
